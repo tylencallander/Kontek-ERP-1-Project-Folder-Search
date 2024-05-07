@@ -104,7 +104,6 @@
         ]
     },
 
-
     "K2011179":{
         "project_Number": "K2011179",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL CORPORATION/GOLDEN/K2011 179 BALL GOLDEN",
@@ -175,7 +174,7 @@
         "project_Number": "K2011184 + K2011185",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/N/NELSON STEEL/184 and 185 Nelson Steel",
         "project_Path": [
-            "P: ",
+            "P:",
             "KONTEK",
             "CUSTOMER",
             "N",
@@ -188,7 +187,7 @@
         "project_Number": "K2012187",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/D/DEW Engineering/K2012187 DEW",
         "project_Path": [
-            "P: ",
+            "P:",
             "KONTEK",
             "CUSTOMER",
             "D",
@@ -201,7 +200,7 @@
         "project_Number": "K2012189",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/F/F & P MANUFACTURING/K2012 189 F&P APCS-SP",
         "project_Path": [
-            "P: ",
+            "P:",
             "KONTEK",
             "CUSTOMER",
             "F",
@@ -214,16 +213,14 @@
         "project_Number": "K2012190",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TOYOTA/K2012 190 TOYOTA APCS",
         "project_Path": [
-            "P: ",
+            "P:",
             "KONTEK",
             "CUSTOMER",
             "T",
             "TOYOTA",
             "K2012 190 TOYOTA APCS"
         ]
-    }
-
-
+    },
 }
 
 
