@@ -60,7 +60,7 @@
 
     "K2010175":{
         "job_ID": "175",
-        "project_Name": "Barrick/Aker",
+        "project_Name": "Ball-Ft. Worth, TX",
         "project_Number": "K2010175",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL%20CORPORATION/FT%20WORTH/K2010%20175%20BALL%20FORT%20WORTH%20TEXAS",
         "project_Path": [
@@ -73,6 +73,219 @@
             "K2010 175 BALL FORT WORTH TEXAS"
         ]
     },
+
+    "K2010176":{
+        "job_ID": "176",
+        "project_Name": "Pal-Bosch",
+        "project_Number": "K2010176",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/P/PAL%20BOSCH/K2010%20176%20PAL-BOSCH",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PAL BOSCH",
+            "K2010 176 PAL-BOSCH"
+        ]
+    },
+
+    "K2010177":{
+    },
+
+    "K2010178":{
+    },
+
+    "K2010179":{
+        "job_ID": "179",
+        "project_Name": "Ball-Golden, Co",
+        "project_Number": "K2010179",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL%20CORPORATION/GOLDEN",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BALL CORPORATION",
+            "GOLDEN"
+        ]
+    },
+
+    "K2010180":{
+        "job_ID": "180",
+        "project_Name": "6N Silicon Inc",
+        "project_Number": "K2010180",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/S/6%20N%20SILICON",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "6 N SILICON"
+        ]
+    },
+
+    "K2010181":{
+        "job_ID": "181",
+        "project_Name": "Toda",
+        "project_Number": "K2010181",
+        "full_Projectpath": "file:///P:/KONTEK/CUSTOMER/T/TODA",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "T",
+            "TODA"
+        ]
+    },
+
+    "K2010182":{
+    },
+
+    "K2010183":{
+    },
+
+    "K2010184 + K2010185":{
+        "job_ID": "184 + 185",
+        "project_Name": "Nelson Steel",
+        "project_Number": "K2010184 + K2010185",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/N/NELSON%20STEEL/184%20and%20185%20Nelson%20Steel",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "N",
+            "NELSON STEEL",
+            "184 and 185 Nelson Steel"
+        ]
+    },
+
+    "K2010186":{
+        "job_ID": "186",
+        "project_Name": "Ball Fort Worth",
+        "project_Number": "K2010186",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL%20CORPORATION/FT%20WORTH/K2019%20327%20BALL%20FORT%20WORTH%20ROKON-30%20GPM",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BALL CORPORATION",
+            "FT WORTH",
+            "K2019 327 BALL FORT WORTH ROKON 30 GPM"
+        ]
+    },
+
+    "K2010187":{
+        "job_ID": "187",
+        "project_Name": "Dew",
+        "project_Number": "K2010187",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/D/DEW%20Engineering",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "Dew Engineering"
+        ]
+    },
+
+    "K2010188":{
+        "job_ID": "188",
+        "project_Name": "Brass Craft",
+        "project_Number": "K2010188",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BrassCraft",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BrassCraft"
+        ]
+    },
+
+    "K2010189":{
+        "job_ID": "189",
+        "project_Name": "F & P",
+        "project_Number": "K2010189",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/F/F%20&%20P%20MANUFACTURING",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "F",
+            "F & P MANUFACTURING"
+        ]
+    },
+
+    "K2010190":{
+        "job_ID": "190",
+        "project_Name": "Toyota",
+        "project_Number": "K2010190",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TOYOTA",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "T",
+            "TOYOTA"
+        ]
+    },
+
+    
+    "K2010191":{
+    },
+
+    "K2010192":{
+    },
+
+    "K2010193":{
+    },
+
+    "K2010194":{
+        "job_ID": "194",
+        "project_Name": "DMS/RCM Winnipeg",
+        "project_Number": "K2010194",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/D/DMS/K2012194-DMS",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DMS",
+            "K2012194-DMS"
+        ]
+    },
+
+    "K2010195":{
+        "job_ID": "195",
+        "project_Name": "Hatch/Rio Tinto",
+        "project_Number": "K2010195",
+        "full_Projectpath": "P:/KONTEK/CUSTOMER/H/Hatch/K2012195-RTFT",
+        "project_Path": [
+            "P: ",
+            "KONTEK",
+            "CUSTOMER",
+            "H",
+            "Hatch",
+            "K2012195-RTFT"
+        ]
+    },
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
