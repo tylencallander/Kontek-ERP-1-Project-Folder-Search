@@ -1,7 +1,5 @@
 {
     "K2010170":{
-        "job_ID": "170",
-        "project_Name": "DOMINION COLOUR",
         "project_Number": "K2010170",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/D/DOMINION COLOUR/K2010-170 Chromium IX Treatment Project",
         "project_Path": [
@@ -15,8 +13,6 @@
     },
     
     "K2010171":{
-        "job_ID": "171",
-        "project_Name": "ARCELORMITTAL",
         "project_Number": "K2010171",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/A/ARCELORMITTAL-WOODSTOCK",
         "project_Path": [
@@ -29,8 +25,6 @@
     },
 
     "K2010172":{
-        "job_ID": "172",
-        "project_Name": "BALL-WHITBY, ON",
         "project_Number": "K2010172",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL CORPORATION/WHITBY",
         "project_Path": [
@@ -44,8 +38,6 @@
     },
 
     "K2010174":{
-        "job_ID": "174",
-        "project_Name": "BARRICK/AKER",
         "project_Number": "K2010174",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BARRICK GOLDSTRIKE/K2010174 BARRICK",
         "project_Path": [
@@ -59,8 +51,6 @@
     },
 
     "K2010175":{
-        "job_ID": "175",
-        "project_Name": "Ball-Ft. Worth, TX",
         "project_Number": "K2010175",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL CORPORATION/FT WORTH/K2010 175 BALL FORT WORTH TEXAS",
         "project_Path": [
@@ -75,8 +65,6 @@
     },
 
     "K2011176":{
-        "job_ID": "176",
-        "project_Name": "PAL-BOSCH",
         "project_Number": "K2011176",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/P/PAL BOSCH/K2010 176 PAL-BOSCH",
         "project_Path": [
@@ -90,8 +78,6 @@
     },
 
     "K2011177":{
-        "job_ID": "177",
-        "project_Name": "SEC PLATING/TES",
         "project_Number": "K2011177",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TRANSPACIFIC ENVIRONMENTAL/SEC plating/K2011-177 SEC",
         "project_Path": [
@@ -106,8 +92,6 @@
     },
 
     "K2011178":{
-        "job_ID": "178",
-        "project_Name": "6N SILICON INC PILOT",
         "project_Number": "K2011178",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/S/6 N SILICON/2011-178 6SN SILICON PILOT",
         "project_Path": [
@@ -122,8 +106,6 @@
 
 
     "K2011179":{
-        "job_ID": "179",
-        "project_Name": "BALL-GOLDEN, CO",
         "project_Number": "K2011179",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL CORPORATION/GOLDEN/K2011 179 BALL GOLDEN",
         "project_Path": [
@@ -138,8 +120,6 @@
     },
 
     "K2011180":{
-        "job_ID": "180",
-        "project_Name": "6N SILICON INC",
         "project_Number": "K2011180",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/S/6 N SILICON/2011-180 6N SILICON",
         "project_Path": [
@@ -153,8 +133,6 @@
     },
 
     "K2011181":{
-        "job_ID": "181",
-        "project_Name": "TODA",
         "project_Number": "K2011181",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TODA/2011-181-TODA",
         "project_Path": [
@@ -168,8 +146,6 @@
     },
 
     "K2011182": {
-        "job_ID": "182",
-        "project_Name": "KNOC GSE&C",
         "projectnumber": "K2011182",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/G/GS E and C HARVEST/2011-182- GS E and C",
         "projectpath": [
@@ -183,8 +159,6 @@
     },
 
     "K2011183": {
-        "job_ID": "183",
-        "project_Name": "KWIKSET MEXICALI",
         "projectnumber": "K2011183",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BLACK & DECKER/K2011183 B&D MEXICALI WTS UPGRADE",
         "projectpath": [
@@ -198,8 +172,6 @@
     },
 
     "K2011184 + K2011185":{
-        "job_ID": "184 + 185",
-        "project_Name": "NELSON STEEL",
         "project_Number": "K2011184 + K2011185",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/N/NELSON STEEL/184 and 185 Nelson Steel",
         "project_Path": [
@@ -213,8 +185,6 @@
     },
 
     "K2012187":{
-        "job_ID": "187",
-        "project_Name": "DEW",
         "project_Number": "K2012187",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/D/DEW Engineering/K2012187 DEW",
         "project_Path": [
@@ -228,8 +198,6 @@
     },
 
     "K2012189":{
-        "job_ID": "189",
-        "project_Name": "F & P",
         "project_Number": "K2012189",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/F/F & P MANUFACTURING/K2012 189 F&P APCS-SP",
         "project_Path": [
@@ -243,23 +211,6 @@
     },
 
     "K2012190":{
-        "job_ID": "190",
-        "project_Name": "Toyota",
-        "project_Number": "K2012190",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TOYOTA/K2012 190 TOYOTA APCS",
-        "project_Path": [
-            "P: ",
-            "KONTEK",
-            "CUSTOMER",
-            "T",
-            "TOYOTA",
-            "K2012 190 TOYOTA APCS"
-        ]
-    },
-
-    "K2012191":{
-        "job_ID": "191",
-        "project_Name": "Toyota",
         "project_Number": "K2012190",
         "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TOYOTA/K2012 190 TOYOTA APCS",
         "project_Path": [
@@ -271,7 +222,6 @@
             "K2012 190 TOYOTA APCS"
         ]
     }
-
 
 
 }
