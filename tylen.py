@@ -22,6 +22,7 @@ def check_project_folder(letter, customerFolder, projectFolder):
         errors.setdefault("PROJECTNUMBERNOTNUMERIC", []).append(base_folder)
         return
 
+    # Check if project number is 7 characters long plus the K prefix
     project_number_formatted = 'K' + projectnumber[1:8]
     projects[project_number_formatted] = {
         "projectnumber": project_number_formatted,
