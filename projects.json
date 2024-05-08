@@ -1,100 +1,32 @@
 {
-    "K2010170":{
-        "project_Number": "K2010170",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/D/DOMINION COLOUR/K2010-170 Chromium IX Treatment Project",
-        "project_Path": [
+    "K001": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DURR/2001",
+        "projectnumber": "K001",
+        "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
             "D",
-            "DOMINION COLOUR",
-            "K2010-170 Chromium IX Treatment Project"
+            "DURR",
+            "2001"
         ]
     },
-    
-    "K2010171":{
-        "project_Number": "K2010171",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/A/ARCELORMITTAL-WOODSTOCK",
-        "project_Path": [
+    "K003": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DURR/2003",
+        "projectnumber": "K003",
+        "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
-            "A",
-            "ARCELORMITTAL-WOODSTOCK"
+            "D",
+            "DURR",
+            "2003"
         ]
     },
-
-    "K2010172":{
-        "project_Number": "K2010172",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL CORPORATION/WHITBY",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "B",
-            "BALL CORPORATION",
-            "WHITBY"
-        ]
-    },
-
-    "K2010174":{
-        "project_Number": "K2010174",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BARRICK GOLDSTRIKE/K2010174 BARRICK",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "B",
-            "BARRICK GOLDSTRIKE",
-            "K201014 BARRICK"
-        ]
-    },
-
-    "K2010175":{
-        "project_Number": "K2010175",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL CORPORATION/FT WORTH/K2010 175 BALL FORT WORTH TEXAS",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "B",
-            "BALL CORPORATION",
-            "FT WORTH",
-            "K2010 175 BALL FORT WORTH TEXAS"
-        ]
-    },
-
-    "K2011176":{
-        "project_Number": "K2011176",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/P/PAL BOSCH/K2010 176 PAL-BOSCH",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "P",
-            "PAL BOSCH",
-            "K2010 176 PAL-BOSCH"
-        ]
-    },
-
-    "K2011177":{
-        "project_Number": "K2011177",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TRANSPACIFIC ENVIRONMENTAL/SEC plating/K2011-177 SEC",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "T",
-            "TRANSSPACIFIC ENVIRONMENTAL",
-            "SEC plating",
-            "K2011-177 SEC"
-        ]
-    },
-
-    "K2011178":{
-        "project_Number": "K2011178",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/S/6 N SILICON/2011-178 6SN SILICON PILOT",
-        "project_Path": [
+    "K0111786": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/6 N SILICON/2011-178 6SN SILICON PILOT",
+        "projectnumber": "K0111786",
+        "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
@@ -103,25 +35,10 @@
             "2011-178 6SN SILICON PILOT"
         ]
     },
-
-    "K2011179":{
-        "project_Number": "K2011179",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BALL CORPORATION/GOLDEN/K2011 179 BALL GOLDEN",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "B",
-            "BALL CORPORATION",
-            "GOLDEN",
-            "K2011 179 BALL GOLDEN"
-        ]
-    },
-
-    "K2011180":{
-        "project_Number": "K2011180",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/S/6 N SILICON/2011-180 6N SILICON",
-        "project_Path": [
+    "K0111806": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/6 N SILICON/2011-180 6N SILICON",
+        "projectnumber": "K0111806",
+        "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
@@ -130,36 +47,93 @@
             "2011-180 6N SILICON"
         ]
     },
-
-    "K2011181":{
-        "project_Number": "K2011181",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TODA/2011-181-TODA",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "T",
-            "TODA",
-            "2011-181-TODA"
-        ]
-    },
-
-    "K2011182": {
-        "projectnumber": "K2011182",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/G/GS E and C HARVEST/2011-182- GS E and C",
+    "K0182019": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MIRACLEAN - MOOG/2018-2019",
+        "projectnumber": "K0182019",
         "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
-            "G",
-            "GS E and C HARVEST",
-            "2011-182- GS E and C"
+            "M",
+            "MIRACLEAN - MOOG",
+            "2018-2019"
         ]
     },
-
+    "K022": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DURAPAINT/2022",
+        "projectnumber": "K022",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DURAPAINT",
+            "2022"
+        ]
+    },
+    "K103": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BLOUNT/3103",
+        "projectnumber": "K103",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BLOUNT",
+            "3103"
+        ]
+    },
+    "K2010170": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DOMINION COLOUR/K2010-170 Chromium IX Treatment Project",
+        "projectnumber": "K2010170",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DOMINION COLOUR",
+            "K2010-170 Chromium IX Treatment Project"
+        ]
+    },
+    "K2010171": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ARCELORMITTAL-WOODSTOCK/K2010171 ArcelorMittal",
+        "projectnumber": "K2010171",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ARCELORMITTAL-WOODSTOCK",
+            "K2010171 ArcelorMittal"
+        ]
+    },
+    "K2010174": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BARRICK GOLDSTRIKE/K2010174 BARRICK",
+        "projectnumber": "K2010174",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BARRICK GOLDSTRIKE",
+            "K2010174 BARRICK"
+        ]
+    },
+    "K2010176": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/PAL BOSCH/K2010 176 PAL-BOSCH",
+        "projectnumber": "K2010176",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PAL BOSCH",
+            "K2010 176 PAL-BOSCH"
+        ]
+    },
     "K2011183": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BLACK & DECKER/K2011183 B&D MEXICALI WTS UPGRADE",
         "projectnumber": "K2011183",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/B/BLACK & DECKER/K2011183 B&D MEXICALI WTS UPGRADE",
         "projectpath": [
             "P:",
             "KONTEK",
@@ -169,24 +143,10 @@
             "K2011183 B&D MEXICALI WTS UPGRADE"
         ]
     },
-
-    "K2011184 + K2011185":{
-        "project_Number": "K2011184 + K2011185",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/N/NELSON STEEL/184 and 185 Nelson Steel",
-        "project_Path": [
-            "P:",
-            "KONTEK",
-            "CUSTOMER",
-            "N",
-            "NELSON STEEL",
-            "184 and 185 Nelson Steel"
-        ]
-    },
-
-    "K2012187":{
-        "project_Number": "K2012187",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/D/DEW Engineering/K2012187 DEW",
-        "project_Path": [
+    "K2012187": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DEW Engineering/K2012187 DEW",
+        "projectnumber": "K2012187",
+        "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
@@ -195,11 +155,10 @@
             "K2012187 DEW"
         ]
     },
-
-    "K2012189":{
-        "project_Number": "K2012189",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/F/F & P MANUFACTURING/K2012 189 F&P APCS-SP",
-        "project_Path": [
+    "K2012189": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/F/F & P MANUFACTURING/K2012 189 F&P APCS-SP",
+        "projectnumber": "K2012189",
+        "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
@@ -208,11 +167,10 @@
             "K2012 189 F&P APCS-SP"
         ]
     },
-
-    "K2012190":{
-        "project_Number": "K2012190",
-        "full_Projectpath": "P:/KONTEK/CUSTOMER/T/TOYOTA/K2012 190 TOYOTA APCS",
-        "project_Path": [
+    "K2012190": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/T/TOYOTA/K2012 190 TOYOTA APCS",
+        "projectnumber": "K2012190",
+        "projectpath": [
             "P:",
             "KONTEK",
             "CUSTOMER",
@@ -221,7 +179,1432 @@
             "K2012 190 TOYOTA APCS"
         ]
     },
+    "K2012194": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DMS/K2012194-DMS",
+        "projectnumber": "K2012194",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DMS",
+            "K2012194-DMS"
+        ]
+    },
+    "K2012195": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/H/Hatch/K2012195-RTFT",
+        "projectnumber": "K2012195",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "H",
+            "Hatch",
+            "K2012195-RTFT"
+        ]
+    },
+    "K2012197": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/O/Orbite Aluminae/K2012197-ORBITE",
+        "projectnumber": "K2012197",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "O",
+            "Orbite Aluminae",
+            "K2012197-ORBITE"
+        ]
+    },
+    "K2012200": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/STANLEY BLACK & DECKER/K2012200-SUBIC BAY - PLANT 2",
+        "projectnumber": "K2012200",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "STANLEY BLACK & DECKER",
+            "K2012200-SUBIC BAY - PLANT 2"
+        ]
+    },
+    "K2013205": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COM DEV/K2013205-E Com Dev Engineering Order (Use K2013216 for Equipment)",
+        "projectnumber": "K2013205",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COM DEV",
+            "K2013205-E Com Dev Engineering Order (Use K2013216 for Equipment)"
+        ]
+    },
+    "K2013206": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/STANLEY BLACK & DECKER/K2013206-SUBIC BAY - PLANT 1",
+        "projectnumber": "K2013206",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "STANLEY BLACK & DECKER",
+            "K2013206-SUBIC BAY - PLANT 1"
+        ]
+    },
+    "K2013211": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/SINGH GREENHOUSES/K2013211 RECOVERY RO SYSTEM",
+        "projectnumber": "K2013211",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "SINGH GREENHOUSES",
+            "K2013211 RECOVERY RO SYSTEM"
+        ]
+    },
+    "K2013212": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BLACK & DECKER/K2013212 B&D NOGALES UPGRADE",
+        "projectnumber": "K2013212",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BLACK & DECKER",
+            "K2013212 B&D NOGALES UPGRADE"
+        ]
+    },
+    "K2013216": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COM DEV/K2013216 Com Dev ReKON (Oct 2013)",
+        "projectnumber": "K2013216",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COM DEV",
+            "K2013216 Com Dev ReKON (Oct 2013)"
+        ]
+    },
+    "K2013218": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/N/Niagara Piston/K2013218 Niagara Piston - New Plating Lines",
+        "projectnumber": "K2013218",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "N",
+            "Niagara Piston",
+            "K2013218 Niagara Piston - New Plating Lines"
+        ]
+    },
+    "K2014220": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BENDIX/K2014220 BENDIX, ACUNA MEXICO",
+        "projectnumber": "K2014220",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BENDIX",
+            "K2014220 BENDIX, ACUNA MEXICO"
+        ]
+    },
+    "K2014223": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/R/RCM Modulaire/K2014223 Dragados Potable Water System Container",
+        "projectnumber": "K2014223",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "R",
+            "RCM Modulaire",
+            "K2014223 Dragados Potable Water System Container"
+        ]
+    },
+    "K2014226": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BLOUNT/K2014226 - Super MaxEvap - PVC",
+        "projectnumber": "K2014226",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BLOUNT",
+            "K2014226 - Super MaxEvap - PVC"
+        ]
+    },
+    "K2014230": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/H/Hatch/K2014230 - Debeers - defunct, see 'D'",
+        "projectnumber": "K2014230",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "H",
+            "Hatch",
+            "K2014230 - Debeers - defunct, see 'D'"
+        ]
+    },
+    "K2014231": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DELTA FAUCET/K2014231 Delta Faucet KC 400",
+        "projectnumber": "K2014231",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DELTA FAUCET",
+            "K2014231 Delta Faucet KC 400"
+        ]
+    },
+    "K2014233": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/U/UTAS/K2014233 GOODRICH UTAS TIANJIN",
+        "projectnumber": "K2014233",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "U",
+            "UTAS",
+            "K2014233 GOODRICH UTAS TIANJIN"
+        ]
+    },
+    "K2014234": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/T/TUBE-MAC/K2014234 1200-30 Continuous Wastewater Recovery",
+        "projectnumber": "K2014234",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "T",
+            "TUBE-MAC",
+            "K2014234 1200-30 Continuous Wastewater Recovery"
+        ]
+    },
+    "K2015239": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/H/HAMMOND MFG/K2015239 HAMMOND MFG IX, RO, MS",
+        "projectnumber": "K2015239",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "H",
+            "HAMMOND MFG",
+            "K2015239 HAMMOND MFG IX, RO, MS"
+        ]
+    },
+    "K2015241": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DELTA FAUCET/K2015241 Delta Faucet KC 400 MDF",
+        "projectnumber": "K2015241",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DELTA FAUCET",
+            "K2015241 Delta Faucet KC 400 MDF"
+        ]
+    },
+    "K2015242": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/South West United/K2015 242 Southwest United BTS",
+        "projectnumber": "K2015242",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "South West United",
+            "K2015 242 Southwest United BTS"
+        ]
+    },
+    "K2015243": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/W/WALGREN COMPANY/K2015243 WALGREN ASIA KC20-T",
+        "projectnumber": "K2015243",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "W",
+            "WALGREN COMPANY",
+            "K2015243 WALGREN ASIA KC20-T"
+        ]
+    },
+    "K2015245": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/V/VENTCOR/K2015 245 VentCor RO - Agility Fuel Sys",
+        "projectnumber": "K2015245",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "V",
+            "VENTCOR",
+            "K2015 245 VentCor RO - Agility Fuel Sys"
+        ]
+    },
+    "K2015249": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BRASSTECH/K2015249 Brasstech BTS",
+        "projectnumber": "K2015249",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BRASSTECH",
+            "K2015249 Brasstech BTS"
+        ]
+    },
+    "K2016251": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/SPECTRUM BRANDS/K2016251 S-HHI China",
+        "projectnumber": "K2016251",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "SPECTRUM BRANDS",
+            "K2016251 S-HHI China"
+        ]
+    },
+    "K2016255": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/H/HRP Associates-ACCEL/K2016255 HRP-Accel KC20-PMR+SDI",
+        "projectnumber": "K2016255",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "H",
+            "HRP Associates-ACCEL",
+            "K2016255 HRP-Accel KC20-PMR+SDI"
+        ]
+    },
+    "K2016260": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/T/TRICHEM TECHNOLOGIES/K2016260 Trichem-Rockwood KC20-S",
+        "projectnumber": "K2016260",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "T",
+            "TRICHEM TECHNOLOGIES",
+            "K2016260 Trichem-Rockwood KC20-S"
+        ]
+    },
+    "K2016262": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/T/TONOLLI Canada Ltd/K2016 262 TONOLLI FULL-SCALE SYSTEM",
+        "projectnumber": "K2016262",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "T",
+            "TONOLLI Canada Ltd",
+            "K2016 262 TONOLLI FULL-SCALE SYSTEM"
+        ]
+    },
+    "K2016263": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/T/TONOLLI Canada Ltd/K2016263",
+        "projectnumber": "K2016263",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "T",
+            "TONOLLI Canada Ltd",
+            "K2016263"
+        ]
+    },
+    "K2016265": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/G/GE Healthcare/K2016265 GE Healthcare",
+        "projectnumber": "K2016265",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "G",
+            "GE Healthcare",
+            "K2016265 GE Healthcare"
+        ]
+    },
+    "K2016266": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/McGARD/K2016266 - KC20",
+        "projectnumber": "K2016266",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "McGARD",
+            "K2016266 - KC20"
+        ]
+    },
+    "K2016268": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DURAPAINT/K2016-268 Durapaint Control Panel Replacement",
+        "projectnumber": "K2016268",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DURAPAINT",
+            "K2016-268 Durapaint Control Panel Replacement"
+        ]
+    },
+    "K2016269": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BELL HELICOPTER/K2016269 Bell Helicopter Mirabel-LWT",
+        "projectnumber": "K2016269",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BELL HELICOPTER",
+            "K2016269 Bell Helicopter Mirabel-LWT"
+        ]
+    },
+    "K2016270": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/U/Umicore/K2016270 UMICORE",
+        "projectnumber": "K2016270",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "U",
+            "Umicore",
+            "K2016270 UMICORE"
+        ]
+    },
+    "K2016272": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/G/GERRITY CORRUGATED PAPER/K2016272 Gerrity MS5BDB",
+        "projectnumber": "K2016272",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "G",
+            "GERRITY CORRUGATED PAPER",
+            "K2016272 Gerrity MS5BDB"
+        ]
+    },
+    "K2017271": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/T/TT Electronics/K2017271 DI",
+        "projectnumber": "K2017271",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "T",
+            "TT Electronics",
+            "K2017271 DI"
+        ]
+    },
+    "K2017273": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BRASSTECH/K2017273 Brasstech Newport IX",
+        "projectnumber": "K2017273",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BRASSTECH",
+            "K2017273 Brasstech Newport IX"
+        ]
+    },
+    "K2017274": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/F/FN MANUFACTURING/K2017274 FN Mfg Clarifier",
+        "projectnumber": "K2017274",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "F",
+            "FN MANUFACTURING",
+            "K2017274 FN Mfg Clarifier"
+        ]
+    },
+    "K2017275": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/POMERLEAU/K2017275 - CHALK RIVER - GWT",
+        "projectnumber": "K2017275",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "POMERLEAU",
+            "K2017275 - CHALK RIVER - GWT"
+        ]
+    },
+    "K2017276": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COLUMBIA CHEMICAL/K2017276 Columbia Chemical KC20-TE",
+        "projectnumber": "K2017276",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COLUMBIA CHEMICAL",
+            "K2017276 Columbia Chemical KC20-TE"
+        ]
+    },
+    "K2017277": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/U/UTAS/K2017277 UTAS Windsor Locks RO",
+        "projectnumber": "K2017277",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "U",
+            "UTAS",
+            "K2017277 UTAS Windsor Locks RO"
+        ]
+    },
+    "K2017278": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COLUMBIA CHEMICAL/K2017278 Columbia Chemical KC20-D",
+        "projectnumber": "K2017278",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COLUMBIA CHEMICAL",
+            "K2017278 Columbia Chemical KC20-D"
+        ]
+    },
+    "K2017281": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/W/WALKER GLASS/K2017281 CU RECOVERY IX SYSTEM",
+        "projectnumber": "K2017281",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "W",
+            "WALKER GLASS",
+            "K2017281 CU RECOVERY IX SYSTEM"
+        ]
+    },
+    "K2017282": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/W/WALKER GLASS/K2017282 RO SYSTEM",
+        "projectnumber": "K2017282",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "W",
+            "WALKER GLASS",
+            "K2017282 RO SYSTEM"
+        ]
+    },
+    "K2017285": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BELL HELICOPTER/K2017285 Bell Helicopter Mirabel",
+        "projectnumber": "K2017285",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BELL HELICOPTER",
+            "K2017285 Bell Helicopter Mirabel"
+        ]
+    },
+    "K2017287": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/R/RSS Manufacturing - Phylrich/K2017287 RSS Manufacturing KC20D",
+        "projectnumber": "K2017287",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "R",
+            "RSS Manufacturing - Phylrich",
+            "K2017287 RSS Manufacturing KC20D"
+        ]
+    },
+    "K2017288": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/SPECTRUM BRANDS/K2017288 Spectrum Petco Colombia",
+        "projectnumber": "K2017288",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "SPECTRUM BRANDS",
+            "K2017288 Spectrum Petco Colombia"
+        ]
+    },
+    "K2018292": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/U/UTAS/K2018292 UTAS Oakville Engineering",
+        "projectnumber": "K2018292",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "U",
+            "UTAS",
+            "K2018292 UTAS Oakville Engineering"
+        ]
+    },
+    "K2018293": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/E/ERICO (PENTAIR)/K2018293 ERICO-PENTAIR MICROFILTER",
+        "projectnumber": "K2018293",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "E",
+            "ERICO (PENTAIR)",
+            "K2018293 ERICO-PENTAIR MICROFILTER"
+        ]
+    },
+    "K2018295": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ARTS METAL/K2018295 ARTS METAL",
+        "projectnumber": "K2018295",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ARTS METAL",
+            "K2018295 ARTS METAL"
+        ]
+    },
+    "K2018296": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COLUMBIA CHEMICAL/K2018296 Columbia Chemical KC20-D",
+        "projectnumber": "K2018296",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COLUMBIA CHEMICAL",
+            "K2018296 Columbia Chemical KC20-D"
+        ]
+    },
+    "K2018297": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/H/HAWKINS/K2018297-KC20-S",
+        "projectnumber": "K2018297",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "H",
+            "HAWKINS",
+            "K2018297-KC20-S"
+        ]
+    },
+    "K2018299": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/J/JRS (FIVE-B)/K2018299 JRS 10 GPM RO (FIVE-B)",
+        "projectnumber": "K2018299",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "J",
+            "JRS (FIVE-B)",
+            "K2018299 JRS 10 GPM RO (FIVE-B)"
+        ]
+    },
+    "K2018300": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COLUMBIA CHEMICAL/K2018300 Columbia Chemical KC20-S",
+        "projectnumber": "K2018300",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COLUMBIA CHEMICAL",
+            "K2018300 Columbia Chemical KC20-S"
+        ]
+    },
+    "K2018303": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/E/ENEREAU/K2018303 Enereau - Paradox Brewery",
+        "projectnumber": "K2018303",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "E",
+            "ENEREAU",
+            "K2018303 Enereau - Paradox Brewery"
+        ]
+    },
+    "K2018305": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/E/ENEREAU/K2018305 Enereau - Ross University",
+        "projectnumber": "K2018305",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "E",
+            "ENEREAU",
+            "K2018305 Enereau - Ross University"
+        ]
+    },
+    "K2018924": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/L/LEALLOZANO/K2018924 LEALLOZANO",
+        "projectnumber": "K2018924",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "L",
+            "LEALLOZANO",
+            "K2018924 LEALLOZANO"
+        ]
+    },
+    "K2019308": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DURAPAINT/K2019308 Durapaint Brampton",
+        "projectnumber": "K2019308",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DURAPAINT",
+            "K2019308 Durapaint Brampton"
+        ]
+    },
+    "K2019309": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/Precision Process/K2019309 KC 400",
+        "projectnumber": "K2019309",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "Precision Process",
+            "K2019309 KC 400"
+        ]
+    },
+    "K2019313": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/E/ENEREAU/K2019313 Enereau - BVI Long Bay",
+        "projectnumber": "K2019313",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "E",
+            "ENEREAU",
+            "K2019313 Enereau - BVI Long Bay"
+        ]
+    },
+    "K2019314": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MEDECO/K2019314 MEDECO - ASSA ABLOY",
+        "projectnumber": "K2019314",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MEDECO",
+            "K2019314 MEDECO - ASSA ABLOY"
+        ]
+    },
+    "K2019315": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COLUMBIA CHEMICAL/K2019315 & K2019316 Columbia Chemical KC20-S",
+        "projectnumber": "K2019315",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COLUMBIA CHEMICAL",
+            "K2019315 & K2019316 Columbia Chemical KC20-S"
+        ]
+    },
+    "K2019317": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ALBERT LEA ELECTRO PLATING INC/K2019317 KC20-T",
+        "projectnumber": "K2019317",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ALBERT LEA ELECTRO PLATING INC",
+            "K2019317 KC20-T"
+        ]
+    },
+    "K2019318": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/PREMIER PROCESSING/K2019318 PREMIER PROCESSING 100 GPM REKON",
+        "projectnumber": "K2019318",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PREMIER PROCESSING",
+            "K2019318 PREMIER PROCESSING 100 GPM REKON"
+        ]
+    },
+    "K2019320": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/R/REGENERATION SERVICES/K2019320 - BTS Upgrade",
+        "projectnumber": "K2019320",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "R",
+            "REGENERATION SERVICES",
+            "K2019320 - BTS Upgrade"
+        ]
+    },
+    "K2019321": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/G/GALIO/K2019321 GALIO KC20T",
+        "projectnumber": "K2019321",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "G",
+            "GALIO",
+            "K2019321 GALIO KC20T"
+        ]
+    },
+    "K2019322": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ARTS METAL/K2019322 ARTS METAL CAPTURE TANKS",
+        "projectnumber": "K2019322",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ARTS METAL",
+            "K2019322 ARTS METAL CAPTURE TANKS"
+        ]
+    },
+    "K2019323": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/SHIMCO/K2019323 SHIMCO",
+        "projectnumber": "K2019323",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "SHIMCO",
+            "K2019323 SHIMCO"
+        ]
+    },
+    "K2019324": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/Pratt & Whitney/K2019324 Pratt & Whitney - 30 GPM ROKON",
+        "projectnumber": "K2019324",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "Pratt & Whitney",
+            "K2019324 Pratt & Whitney - 30 GPM ROKON"
+        ]
+    },
+    "K2019325": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/PFC FLEX/K2019325 PFC FLEX - 1400-50 GPM",
+        "projectnumber": "K2019325",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PFC FLEX",
+            "K2019325 PFC FLEX - 1400-50 GPM"
+        ]
+    },
+    "K2019326": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/L/LANDING GEAR TECHNOLOGIES/K2019326 LGT - 1400-40 GPM, 20 GPM ROKON",
+        "projectnumber": "K2019326",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "L",
+            "LANDING GEAR TECHNOLOGIES",
+            "K2019326 LGT - 1400-40 GPM, 20 GPM ROKON"
+        ]
+    },
+    "K2020331": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BEVERLY GREENHOUSES/K2020331 Beverly Greenhouses (FARM 2) ROKON-40",
+        "projectnumber": "K2020331",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BEVERLY GREENHOUSES",
+            "K2020331 Beverly Greenhouses (FARM 2) ROKON-40"
+        ]
+    },
+    "K2020335": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/McMaster University/K2020335 McMaster (Besseling) ROKON-35",
+        "projectnumber": "K2020335",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "McMaster University",
+            "K2020335 McMaster (Besseling) ROKON-35"
+        ]
+    },
+    "K2020336": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/B/BEVERLY GREENHOUSES/K2020336 Beverly Greenhouses (FARM1) ROKON-40",
+        "projectnumber": "K2020336",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "B",
+            "BEVERLY GREENHOUSES",
+            "K2020336 Beverly Greenhouses (FARM1) ROKON-40"
+        ]
+    },
+    "K2020337": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/Pratt & Whitney/K2020337 Pratt & Whitney Georgia (CJI)",
+        "projectnumber": "K2020337",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "Pratt & Whitney",
+            "K2020337 Pratt & Whitney Georgia (CJI)"
+        ]
+    },
+    "K2021338": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/D/DYNOMAX - TECHNIC/K2021338 DYNOMAX WWTS",
+        "projectnumber": "K2021338",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "D",
+            "DYNOMAX - TECHNIC",
+            "K2021338 DYNOMAX WWTS"
+        ]
+    },
+    "K2021339": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/AEROTEK MANUFACTURING LTD/K2021339 AND REKON 60 IX and MS2MDM Moonstone",
+        "projectnumber": "K2021339",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "AEROTEK MANUFACTURING LTD",
+            "K2021339 AND REKON 60 IX and MS2MDM Moonstone"
+        ]
+    },
+    "K2021341": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/V/VENTCOR/K2021-341-VENTCOR-REKON",
+        "projectnumber": "K2021341",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "V",
+            "VENTCOR",
+            "K2021-341-VENTCOR-REKON"
+        ]
+    },
+    "K2021342": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/McMaster University/K2021342 McMaster (L.J Barton) ROKON-70,CIP",
+        "projectnumber": "K2021342",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "McMaster University",
+            "K2021342 McMaster (L.J Barton) ROKON-70,CIP"
+        ]
+    },
+    "K2021343": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ARDAGH GROUP/K2021343 ARDAGH HURON, OH - BLUEWAVE (ROESLEIN)",
+        "projectnumber": "K2021343",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ARDAGH GROUP",
+            "K2021343 ARDAGH HURON, OH - BLUEWAVE (ROESLEIN)"
+        ]
+    },
+    "K2021344": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/W/WILLIAMS INTERNATIONAL/K2021 344 MICHIGAN",
+        "projectnumber": "K2021344",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "W",
+            "WILLIAMS INTERNATIONAL",
+            "K2021 344 MICHIGAN"
+        ]
+    },
+    "K2021345": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/W/WILLIAMS INTERNATIONAL/K2021 345 UTAH",
+        "projectnumber": "K2021345",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "W",
+            "WILLIAMS INTERNATIONAL",
+            "K2021 345 UTAH"
+        ]
+    },
+    "K2021347": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/N/NATIONAL RESEARCH COUNCIL/K2021347 NRC 1400-MF Pilot",
+        "projectnumber": "K2021347",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "N",
+            "NATIONAL RESEARCH COUNCIL",
+            "K2021347 NRC 1400-MF Pilot"
+        ]
+    },
+    "K2021348": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/CATERPILLAR/K2021 348 KC20-S (MOSSVILLE, IL)",
+        "projectnumber": "K2021348",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "CATERPILLAR",
+            "K2021 348 KC20-S (MOSSVILLE, IL)"
+        ]
+    },
+    "K2021349": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/South West United/K2021 349 1100 Series Neutralization System",
+        "projectnumber": "K2021349",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "South West United",
+            "K2021 349 1100 Series Neutralization System"
+        ]
+    },
+    "K2022351": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/E/ECOPLATING/K2022 351 ECOPLATING (END USER UNKNOWN) KC-20D",
+        "projectnumber": "K2022351",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "E",
+            "ECOPLATING",
+            "K2022 351 ECOPLATING (END USER UNKNOWN) KC-20D"
+        ]
+    },
+    "K2022352": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MARTRON INC/K2022 352 AALBERTS IPSA",
+        "projectnumber": "K2022352",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MARTRON INC",
+            "K2022 352 AALBERTS IPSA"
+        ]
+    },
+    "K2022353": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MILITEX COATINGS/K2022353 MILITEX COATINGS",
+        "projectnumber": "K2022353",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MILITEX COATINGS",
+            "K2022353 MILITEX COATINGS"
+        ]
+    },
+    "K2022354": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/COLUMBIA CHEMICAL/K2022354 Columbia Chemical KC20-TE",
+        "projectnumber": "K2022354",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "COLUMBIA CHEMICAL",
+            "K2022354 Columbia Chemical KC20-TE"
+        ]
+    },
+    "K2022355": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/PSI (Plating Specialist Inc.)/K2022 355 PSI (End User Unknown)",
+        "projectnumber": "K2022355",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PSI (Plating Specialist Inc.)",
+            "K2022 355 PSI (End User Unknown)"
+        ]
+    },
+    "K2022357": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/AST/K2022357 1400-40 WWTS",
+        "projectnumber": "K2022357",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "AST",
+            "K2022357 1400-40 WWTS"
+        ]
+    },
+    "K2022358": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/SCHAEFFLER AEROSPACE/K2022358 SCHAEFFLER 1400 SERIES 10 GPM",
+        "projectnumber": "K2022358",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "SCHAEFFLER AEROSPACE",
+            "K2022358 SCHAEFFLER 1400 SERIES 10 GPM"
+        ]
+    },
+    "K2022360": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/J/JOHN SCHNEIDER & ASSOC/K2022360 ARLINGTON PLATING",
+        "projectnumber": "K2022360",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "J",
+            "JOHN SCHNEIDER & ASSOC",
+            "K2022360 ARLINGTON PLATING"
+        ]
+    },
+    "K2022361": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/R/RCM/K2022361 Clarifier Replacement",
+        "projectnumber": "K2022361",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "R",
+            "RCM",
+            "K2022361 Clarifier Replacement"
+        ]
+    },
+    "K2022365": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/SAMKEE/K2022365-E ENGINEERING SAMKEE AMERICA (OBSOLETE)",
+        "projectnumber": "K2022365",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "SAMKEE",
+            "K2022365-E ENGINEERING SAMKEE AMERICA (OBSOLETE)"
+        ]
+    },
+    "K2022366": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/PPI/K2022366 WWTS 40 GPM",
+        "projectnumber": "K2022366",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PPI",
+            "K2022366 WWTS 40 GPM"
+        ]
+    },
+    "K2022368": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ARDAGH GROUP/K2022368 ARDAGH WINSTON SALEM",
+        "projectnumber": "K2022368",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ARDAGH GROUP",
+            "K2022368 ARDAGH WINSTON SALEM"
+        ]
+    },
+    "K2023369": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/J/JM ROMO/K2023369 JM ROMO KC-20QE",
+        "projectnumber": "K2023369",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "J",
+            "JM ROMO",
+            "K2023369 JM ROMO KC-20QE"
+        ]
+    },
+    "K2023370": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/PFC FLEX/K2023370 PFC FLEX - RO, SDS, SDI POLISHING",
+        "projectnumber": "K2023370",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PFC FLEX",
+            "K2023370 PFC FLEX - RO, SDS, SDI POLISHING"
+        ]
+    },
+    "K2023371": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/O/ONBELAY/K2023371 ONBELAY AUTOMOTIVE FP 6 cuft",
+        "projectnumber": "K2023371",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "O",
+            "ONBELAY",
+            "K2023371 ONBELAY AUTOMOTIVE FP 6 cuft"
+        ]
+    },
+    "K2023372": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MICHIGAN CAN LINES/K2023372 MCL Charlotte, MI 1400-80-DAF-V",
+        "projectnumber": "K2023372",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MICHIGAN CAN LINES",
+            "K2023372 MCL Charlotte, MI 1400-80-DAF-V"
+        ]
+    },
+    "K2023376": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/CROWN/K2023376 Crown Weston, ON",
+        "projectnumber": "K2023376",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "CROWN",
+            "K2023376 Crown Weston, ON"
+        ]
+    },
+    "K2023377": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/CORROTEC/K2023 377 SNAP ON ELIZABETHTON",
+        "projectnumber": "K2023377",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "CORROTEC",
+            "K2023 377 SNAP ON ELIZABETHTON"
+        ]
+    },
+    "K2023378": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/C/CORROTEC/K2023 378 SNAP ON MILWAUKEE",
+        "projectnumber": "K2023378",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "C",
+            "CORROTEC",
+            "K2023 378 SNAP ON MILWAUKEE"
+        ]
+    },
+    "K2023379": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/J/JSA/K2023379 JSA KC400-AP",
+        "projectnumber": "K2023379",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "J",
+            "JSA",
+            "K2023379 JSA KC400-AP"
+        ]
+    },
+    "K2023380": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MACDERMID/K2023380, KC20-D, Electric Chemical Ind",
+        "projectnumber": "K2023380",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MACDERMID",
+            "K2023380, KC20-D, Electric Chemical Ind"
+        ]
+    },
+    "K2023382": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ALTEC INDUSTRIES/K2023382-A ELIZABETHTOWN PLANT SITE ASSESSMENT",
+        "projectnumber": "K2023382",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ALTEC INDUSTRIES",
+            "K2023382-A ELIZABETHTOWN PLANT SITE ASSESSMENT"
+        ]
+    },
+    "K2023383": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MICHIGAN CAN LINES/K2023383 MCL Charlotte, MI Oil Seperator Coalescer",
+        "projectnumber": "K2023383",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MICHIGAN CAN LINES",
+            "K2023383 MCL Charlotte, MI Oil Seperator Coalescer"
+        ]
+    },
+    "K2023384": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ARDAGH GROUP/K2023384 ARDAGH CHICAGO, IL LAMELLA REPLACEMENT",
+        "projectnumber": "K2023384",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ARDAGH GROUP",
+            "K2023384 ARDAGH CHICAGO, IL LAMELLA REPLACEMENT"
+        ]
+    },
+    "K2023385": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/O/OLYMPIC COATERS/K2023385 KC20-QE WITH CPVC COMPONENTS",
+        "projectnumber": "K2023385",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "O",
+            "OLYMPIC COATERS",
+            "K2023385 KC20-QE WITH CPVC COMPONENTS"
+        ]
+    },
+    "K2023386": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/S/SORENSON ENGINEERING/K2023386 1400-30, REKON 40",
+        "projectnumber": "K2023386",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "S",
+            "SORENSON ENGINEERING",
+            "K2023386 1400-30, REKON 40"
+        ]
+    },
+    "K2023387": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MILL-MAX MFG CORP/K2023387 WWTS 30 GPM",
+        "projectnumber": "K2023387",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MILL-MAX MFG CORP",
+            "K2023387 WWTS 30 GPM"
+        ]
+    },
+    "K2024388": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/MACDERMID/K2024388, KC-400, EU Chihuahua, Mexico",
+        "projectnumber": "K2024388",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "MACDERMID",
+            "K2024388, KC-400, EU Chihuahua, Mexico"
+        ]
+    },
+    "K2024389": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/M/McGARD/K2024389 KC400-AP CUSTOM",
+        "projectnumber": "K2024389",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "M",
+            "McGARD",
+            "K2024389 KC400-AP CUSTOM"
+        ]
+    },
+    "K2024391": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ARDAGH GROUP/K2024391 ARDAGH BISHOPVILLE, CLARIFIER MEZZANINE",
+        "projectnumber": "K2024391",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ARDAGH GROUP",
+            "K2024391 ARDAGH BISHOPVILLE, CLARIFIER MEZZANINE"
+        ]
+    },
+    "K2024392": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/A/ALBERT LEA ELECTRO PLATING INC/K2024392-E WWT ENG REVIEW",
+        "projectnumber": "K2024392",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "A",
+            "ALBERT LEA ELECTRO PLATING INC",
+            "K2024392-E WWT ENG REVIEW"
+        ]
+    },
+    "K2024393": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/E/EATON ELECTRICAL/K2024393 REAGENT CHEMICAL TRANSFER PUMPS",
+        "projectnumber": "K2024393",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "E",
+            "EATON ELECTRICAL",
+            "K2024393 REAGENT CHEMICAL TRANSFER PUMPS"
+        ]
+    },
+    "K2024394": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/Pratt & Whitney/K2024394 Pratt & Whitney North Berwick RO",
+        "projectnumber": "K2024394",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "Pratt & Whitney",
+            "K2024394 Pratt & Whitney North Berwick RO"
+        ]
+    },
+    "K2024395": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/U/UNIVERSAL MACHINING INDUSTRIES, INC/K2024395 1400-20 With ROKON-10",
+        "projectnumber": "K2024395",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "U",
+            "UNIVERSAL MACHINING INDUSTRIES, INC",
+            "K2024395 1400-20 With ROKON-10"
+        ]
+    },
+    "K2024396": {
+        "projectfullpath": "P:/KONTEK/CUSTOMER/P/PREMIER PROCESSING/K2024396 10 GPM ROKON",
+        "projectnumber": "K2024396",
+        "projectpath": [
+            "P:",
+            "KONTEK",
+            "CUSTOMER",
+            "P",
+            "PREMIER PROCESSING",
+            "K2024396 10 GPM ROKON"
+        ]
+    }
 }
-
-
-    
