@@ -15,15 +15,13 @@ def check_project_folder(letter, customerFolder, projectFolder):
         return
     
     projectnumber = projectFolder.replace("-", "").replace(" ", "")
-    if not projectnumber.startswith('K'):  # Verify project number starts with 'K'
-        return  # Ignore folder if it does not start with 'K'
+    if not projectnumber.startswith('K'):  
+        return  
     
-    # Extract the numeric part following the initial 'K'
     if not projectnumber[1:8].isnumeric():
         errors.setdefault("PROJECTNUMBERNOTNUMERIC", []).append(base_folder)
         return
 
-    # Use only the first 8 characters, K + 7 digits
     project_number_formatted = 'K' + projectnumber[1:8]
     projects[project_number_formatted] = {
         "projectnumber": project_number_formatted,
