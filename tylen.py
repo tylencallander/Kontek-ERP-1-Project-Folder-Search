@@ -31,6 +31,7 @@ def check_project_folder(letter, customerFolder, projectFolder):
         "projectfullpath": base_folder,
         "projectpath": ["P:", "KONTEK", "CUSTOMER", letter, customerFolder, projectFolder]
     }
+    
 
 def parse_projects():
     for letter in letters:
