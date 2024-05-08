@@ -1,7 +1,5 @@
 import os
 import json
-import xlrd
-import openpyxl
 
 PROJECTS_ONLY = False
 
@@ -14,15 +12,21 @@ errors = {}
 def check_project_folder(letter, customerFolder, projectFolder):
     base_folder = f"{basepath}/{letter}/{customerFolder}/{projectFolder}"
     if not os.path.isdir(base_folder):
-        return 
+        return
     
     projectnumber = projectFolder.replace("-", "").replace(" ", "")
+    if not projectnumber.startswith('K'):  # Verify project number starts with 'K'
+        return  # Ignore folder if it does not start with 'K'
+    
+    # Extract the numeric part following the initial 'K'
     if not projectnumber[1:8].isnumeric():
         errors.setdefault("PROJECTNUMBERNOTNUMERIC", []).append(base_folder)
         return
 
-    projects[f"K{projectnumber[1:8]}"] = {
-        "projectnumber": f"K{projectnumber[1:8]}",
+    # Use only the first 8 characters, K + 7 digits
+    project_number_formatted = 'K' + projectnumber[1:8]
+    projects[project_number_formatted] = {
+        "projectnumber": project_number_formatted,
         "projectfullpath": base_folder,
         "projectpath": ["P:", "KONTEK", "CUSTOMER", letter, customerFolder, projectFolder]
     }
