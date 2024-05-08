@@ -1,3 +1,5 @@
+# Was going to use Pandas or Openpyxl to work with the Excel file but decided not to instead.
+
 import os
 import json
 
@@ -45,6 +47,7 @@ def parse_projects():
                 for projectFolder in projectsList:
                     check_project_folder(letter, customerFolder, projectFolder)
 
+# Save parsed files to projects.json if located, then errors.json if the value is not numeric (8>characters)
 def save_json():
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4, sort_keys=True)
