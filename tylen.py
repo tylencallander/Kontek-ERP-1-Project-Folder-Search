@@ -13,7 +13,7 @@ errors = {}
 
 # Added print statements so I can debug while I was working on this, but they can be omitted.
 
-print("\nParsing all Files...")
+print("\nParsing all Files in KONTEK's Network...")
 
 # Searches for the project number in the project folder name, and chooses wether so sort each file into the projects or errors json files.
 
@@ -68,14 +68,14 @@ def save_json():
     print("\nParsing Complete!\n")
     print(f"Logged {len(projects)} projects to project.json")
     nested_paths = sum(len(value) for value in errors.values())
-    print(f"Logged {nested_paths} non-numeric projects to errors.json")
+    print(f"Logged {nested_paths} non-numeric projects errors to errors.json")
 
 def main():
     parse_projects()
     save_json()
     if PROJECTS_ONLY:
         exit()
-    print("\nExiting...")
+    print("\nExiting Now...")
 
 if __name__ == "__main__":
     main()
