@@ -1,3 +1,5 @@
+# I didn't end up using Openpyxl or Pandas, but I left them in the imports in case I will need them later as I expand on this code
+
 import os
 import json
 
@@ -8,6 +10,8 @@ letters = ["#", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
 
 projects = {}
 errors = {}
+
+# Added print statements so I can debug while I was working on this, but they can be omitted.
 
 print("\nParsing all Files...")
 
