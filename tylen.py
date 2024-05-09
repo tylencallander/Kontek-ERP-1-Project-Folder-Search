@@ -1,6 +1,5 @@
 # Was going to use Pandas or Openpyxl to work with the Excel file but decided not to instead.
 
-import pandas as pd
 import os
 import json
 
