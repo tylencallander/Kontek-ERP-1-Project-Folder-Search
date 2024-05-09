@@ -58,6 +58,7 @@ def save_json():
         json.dump(errors, f, indent=4, sort_keys=True)
         
 # Added some print statements so I can debug and confirm that all data from the spreadsheet path has been parsed successfully or populated into the error file
+# They can be omitted if unecessary, doesn't matter to me
 
 def main():
     parse_projects()
