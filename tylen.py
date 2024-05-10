@@ -1,5 +1,3 @@
-# I didn't end up using Openpyxl or Pandas, but I left them in the imports in case I will need them later as I expand on this code
-
 import os
 import json
 
