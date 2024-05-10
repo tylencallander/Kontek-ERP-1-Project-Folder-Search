@@ -1,5 +1,3 @@
-# I didn't end up using Openpyxl or Pandas, but I left them in the imports in case I will need them later as I expand on this code
-
 import os
 import json
 
@@ -15,8 +13,6 @@ errors = {}
 
 print("\nParsing all Files in KONTEK's Network...")
 
-# Searches for the project number in the project folder name, and chooses wether so sort each file into the projects or errors json files.
-
 def check_project_folder(letter, customerFolder, projectFolder):
     base_folder = f"{basepath}/{letter}/{customerFolder}/{projectFolder}"
     if not os.path.isdir(base_folder):
@@ -29,8 +25,6 @@ def check_project_folder(letter, customerFolder, projectFolder):
     if not projectnumber[1:8].isnumeric():
         errors.setdefault("PROJECTNUMBERNOTNUMERIC", []).append(base_folder)
         return
-
-# Verifies that the project number is 7 digits long, and begins with the prefix "K"
 
     project_number_formatted = 'K' + projectnumber[1:8]
     projects[project_number_formatted] = {
@@ -53,8 +47,6 @@ def parse_projects():
                 projectsList = os.listdir(customer_path)
                 for projectFolder in projectsList:
                     check_project_folder(letter, customerFolder, projectFolder)
-
-# Log everything into the errors and projects json files.
 
 def save_json():
     with open("projects.json", "w") as f:
