@@ -9,11 +9,8 @@ letters = ["#", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
 projects = {}
 errors = {}
 
-# Added print statements so I can debug while I was working on this, but they can be omitted.
 
 print("\nParsing all Files in KONTEK's Network...")
-
-# Searches for the project number in the project folder name, and chooses wether so sort each file into the projects or errors json files.
 
 def check_project_folder(letter, customerFolder, projectFolder):
     base_folder = f"{basepath}/{letter}/{customerFolder}/{projectFolder}"
@@ -27,8 +24,6 @@ def check_project_folder(letter, customerFolder, projectFolder):
     if not projectnumber[1:8].isnumeric():
         errors.setdefault("PROJECTNUMBERNOTNUMERIC", []).append(base_folder)
         return
-
-# Verifies that the project number is 7 digits long, and begins with the prefix "K"
 
     project_number_formatted = 'K' + projectnumber[1:8]
     projects[project_number_formatted] = {
@@ -52,8 +47,6 @@ def parse_projects():
                 for projectFolder in projectsList:
                     check_project_folder(letter, customerFolder, projectFolder)
 
-# Log everything into the errors and projects json files.
-
 def save_json():
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4, sort_keys=True)
@@ -61,7 +54,6 @@ def save_json():
         json.dump(errors, f, indent=4, sort_keys=True)
     nested_paths = sum(len(value) for value in errors.values())
 
-# More print statements for debugging.
 
     print("\nParsing Complete!\n")
     print(f"Logged {len(projects)} projects to project.json")
