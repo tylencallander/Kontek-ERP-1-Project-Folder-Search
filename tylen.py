@@ -3,6 +3,8 @@ import json
 
 PROJECTS_ONLY = False
 
+# Remove letters variable
+
 basepath = "P:/KONTEK/CUSTOMER"
 letters = ["#", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
@@ -11,6 +13,9 @@ errors = {}
 
 
 print("\nParsing all Files in KONTEK's Network...")
+
+# User os.listdir and search within
+# Ignore project numnbers starting with k
 
 def check_project_folder(letter, customerFolder, projectFolder):
     base_folder = f"{basepath}/{letter}/{customerFolder}/{projectFolder}"
@@ -56,9 +61,10 @@ def save_json():
 
 
     print("\nParsing Complete!\n")
-    print(f"Logged {len(projects)} projects to project.json")
+    print(f"Logged {len(projects)} projects to project.json\n")
     nested_paths = sum(len(value) for value in errors.values())
     print(f"Logged {nested_paths} non-numeric projects errors to errors.json")
+    print(f"Logged {nested_paths} projects with no number found to errors.json")
 
 def main():
     parse_projects()
