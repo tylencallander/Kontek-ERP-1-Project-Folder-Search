@@ -8,6 +8,8 @@ basepath = "P:/KONTEK/CUSTOMER"
 projects = {}
 errors = {}
 
+print("\nParsing Projects...")
+
 def check_project_folder(letter, customerFolder, projectFolder):
     base_folder = os.path.join(basepath, letter, customerFolder, projectFolder)
     if not os.path.isdir(base_folder):
