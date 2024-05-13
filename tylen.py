@@ -14,6 +14,7 @@ def check_project_folder(folder_path):
     for folder in os.listdir(folder_path):
         folder_full_path = os.path.join(folder_path, folder)
         if os.path.isdir(folder_full_path):
+            print(f"Found folder: {folder_full_path}")
             project_number = folder.replace("-", "").replace(" ", "")
             if not project_number.startswith("K"):
                 continue
@@ -30,6 +31,7 @@ def check_project_folder(folder_path):
 def parse_projects():
     for root, dirs, files in os.walk(basepath):
         for d in dirs:
+            print(f"Checking directory: {os.path.join(root, d)}")
             check_project_folder(os.path.join(root, d))
 
 def check_missing_projects():
@@ -41,6 +43,7 @@ def check_missing_projects():
                 errors.setdefault("PROJECTNUMBERSFOLDERNOTFOUND", []).append(project_number)
 
 def save_json():
+    print("\nSaving JSON files...")
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4, sort_keys=True)
     with open("errors.json", "w") as f:
