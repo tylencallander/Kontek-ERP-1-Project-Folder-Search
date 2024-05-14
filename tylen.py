@@ -1,66 +1,60 @@
 import os
 import json
-import pandas as pd
+import openpyxl
 
 PROJECTS_ONLY = False
 
-basepath = "P:/KONTEK/CUSTOMER"
+basepath = 'P:/KONTEK/CUSTOMER'
 projects = {}
 errors = {}
 
+def check_project_folder(base_path):
+    """Recursively checks each folder starting from the base path to find valid project folders."""
+    for root, dirs, files in os.walk(base_path, topdown=True):
+        for folder in dirs:
+            full_path = os.path.join(root, folder)
+            # Ignore if it's not a directory or doesn't start with 'K'
+            if not folder.startswith('K') or not os.path.isdir(full_path):
+                continue
 
-print("\nParsing all Files in KONTEK's Network...")
-
-def check_project_folder(folder_path):
-    for folder in os.listdir(folder_path):
-        folder_full_path = os.path.join(folder_path, folder)
-        if os.path.isdir(folder_full_path):
-            print(f"Found folder: {folder_full_path}")
             project_number = folder.replace("-", "").replace(" ", "")
-            if not project_number.startswith("K"):
-                continue
             if not project_number[1:8].isnumeric():
-                errors.setdefault("PROJECTNUMBERNOTNUMERIC", []).append(folder_full_path)
+                errors.setdefault("PROJECTNUMBERNOTNUMERIC", []).append(full_path)
                 continue
-            project_number_formatted = 'K' + project_number[1:8]
-            projects[project_number_formatted] = {
-                "projectnumber": project_number_formatted,
-                "projectfullpath": folder_full_path,
-                "projectpath": folder_full_path.split("\\")
+
+            # Skipping folders with 'OBSOLETE' in the name
+            if "OBSOLETE" in folder.upper():
+                errors.setdefault("OBSOLETEPROJECTFOLDER", []).append(full_path)
+                continue
+
+            # Base Project Info Object
+            project_info = {
+                "projectnumber": 'K' + project_number[1:8],
+                "projectfullpath": full_path,
+                "projectpath": full_path.split("\\")
             }
+            projects[project_info['projectnumber']] = project_info
+            print(f"Found project: {project_info['projectnumber']} at {full_path}")
 
-def parse_projects():
-    for root, dirs, files in os.walk(basepath):
-        for d in dirs:
-            print(f"Checking directory: {os.path.join(root, d)}")
-            check_project_folder(os.path.join(root, d))
-
-def check_missing_projects():
-    df = pd.read_excel("P:/KONTEK/KONTEK PROJECT JOB NUMBERS.xlsx")
-    for project_number in df["Project Number"]:
-        project_number = str(project_number).strip().upper()
-        if project_number.startswith("K"):
-            if project_number not in projects:
-                errors.setdefault("PROJECTNUMBERSFOLDERNOTFOUND", []).append(project_number)
-
-def save_json():
-    print("\nSaving JSON files...")
-    with open("projects.json", "w") as f:
-        json.dump(projects, f, indent=4, sort_keys=True)
-    with open("errors.json", "w") as f:
-        json.dump(errors, f, indent=4, sort_keys=True)
-    print("\nParsing Complete!\n")
-    print(f"Logged {len(projects)} projects to project.json")
-    print(f"Logged {len(errors['PROJECTNUMBERNOTNUMERIC'])} non-numeric projects errors to errors.json")
-    print(f"Logged {len(errors['PROJECTNUMBERSFOLDERNOTFOUND'])} projects with no folder found to errors.json")
-
+# Main function to orchestrate the directory scanning and JSON saving
 def main():
-    parse_projects()
-    check_missing_projects()
-    save_json()
+    print("********************")
+    print("Parsing All Projects")
+    print("********************")
+    check_project_folder(basepath)
+
+    # Saving the results to JSON files
+    with open("projects.json", "w") as f:
+        json.dump(projects, f, indent=4)
+    with open("errors.json", "w") as f:
+        json.dump(errors, f, indent=4)
+
+    print("\nParsing Complete!")
+    print(f"Logged {len(projects)} projects to projects.json")
+    print(f"Logged {len(errors)} different types of errors to errors.json")
+
     if PROJECTS_ONLY:
         exit()
-    print("\nExiting Now...")
 
 if __name__ == "__main__":
     main()
