@@ -8,6 +8,7 @@ basepath = "P:/KONTEK/CUSTOMER"
 projects = {}
 errors = {}
 
+
 print("\nParsing all Files in KONTEK's Network...")
 
 def check_project_folder(folder_path):
