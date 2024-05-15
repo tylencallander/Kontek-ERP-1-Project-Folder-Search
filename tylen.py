@@ -71,7 +71,7 @@ def main():
     # Print statements so you dont have to count each project and error, but can be omitted
 
     print("\nParsing Complete!\n")
-    print(f"Logged {len(projects)} projects to projects.json")
+    print(f"Logged {len(projects)} found projects to projects.json")
     print(f"Logged {len(errors.get('PROJECTNUMBERSFOLDERNOTFOUND', []))} missing projects to errors.json")
 
 if __name__ == "__main__":
