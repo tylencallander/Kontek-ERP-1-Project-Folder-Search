@@ -11,14 +11,13 @@ errors = {}
 def extract_project_numbers_from_excel(excel_file_path):
     """Extract project numbers from the provided Excel file, ensuring they are of the correct format."""
     try:
-        wb = openpyxl.load_workbook(excel_file_path, data_only=True)  # Load the workbook
-        ws = wb.active  # Get the active worksheet
+        wb = openpyxl.load_workbook(excel_file_path, data_only=True) 
+        ws = wb.active  
         project_numbers = set()
-        # Iterate over rows starting from the second row, extracting values from the second column
         for row in ws.iter_rows(min_row=2, min_col=2, max_col=2, values_only=True):
-            cell_value = str(row[0]).strip().upper() if row[0] else ''  # Process the second column
+            cell_value = str(row[0]).strip().upper() if row[0] else ''  
             if cell_value.startswith('K') and len(cell_value) == 8 and cell_value[1:].isdigit():
-                project_numbers.add(cell_value)  # Add valid project numbers to the set
+                project_numbers.add(cell_value) 
                 print(f"Excel project number extracted: {cell_value}")
         return project_numbers
     except Exception as e:
@@ -32,7 +31,7 @@ def check_project_folder(base_path):
             for folder in dirs:
                 full_path = os.path.join(root, folder)
                 if folder.startswith('K') and os.path.isdir(full_path) and len(folder) >= 8 and folder[1:8].isdigit():
-                    project_number = folder[:8]  # Extract the project number
+                    project_number = folder[:8]  
                     projects[project_number] = {
                         "projectnumber": project_number,
                         "projectfullpath": full_path,
