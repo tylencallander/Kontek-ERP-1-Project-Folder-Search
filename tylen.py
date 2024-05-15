@@ -6,6 +6,8 @@ basepath = 'P:/KONTEK/CUSTOMER'
 projects = {}
 errors = {}
 
+# Extracting project numbers from Excel file, starting from the second row and second column
+
 def extract_project_numbers_from_excel(excel_file_path):
     try:
         wb = openpyxl.load_workbook(excel_file_path, data_only=True) 
@@ -20,6 +22,8 @@ def extract_project_numbers_from_excel(excel_file_path):
     except Exception as e:
         print(f"Error reading from Excel: {e}")
         return set()
+    
+# Checking project folders in the base path
 
 def check_project_folder(base_path):
     try:
@@ -36,6 +40,8 @@ def check_project_folder(base_path):
                     print(f"Found and logged project: {project_number} at {full_path}")
     except Exception as e:
         print(f"Error checking project folder: {e}")
+
+# Finding unmatched projects
 
 def find_unmatched_projects(excel_project_numbers):
     try:
@@ -55,10 +61,14 @@ def main():
     check_project_folder(basepath)
     find_unmatched_projects(excel_project_numbers)
 
+    # JSON file outputs
+
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4)
     with open("errors.json", "w") as f:
         json.dump(errors, f, indent=4)
+
+    # Print statements so you dont have to count each project and error, but can be omitted
 
     print("\nParsing Complete!\n")
     print(f"Logged {len(projects)} projects to projects.json")
