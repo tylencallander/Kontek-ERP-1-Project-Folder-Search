@@ -76,3 +76,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Finish suffixes tommorow then finished task 1
