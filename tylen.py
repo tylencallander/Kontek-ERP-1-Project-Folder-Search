@@ -44,7 +44,7 @@ def find_unmatched_projects(excel_project_numbers):
         if missing_projects:
             errors["PROJECTNUMBERSFOLDERNOTFOUND"] = list(missing_projects)
             for mp in missing_projects:
-                print(f"Missing project number: {mp} not found in directories.")
+                print(f"Missing project number: {mp} not found in directories")
     except Exception as e:
         print(f"Error finding unmatched projects: {e}")
 
