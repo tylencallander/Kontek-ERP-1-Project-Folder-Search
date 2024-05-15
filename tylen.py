@@ -2,8 +2,6 @@ import os
 import json
 import openpyxl
 
-PROJECTS_ONLY = False
-
 basepath = 'P:/KONTEK/CUSTOMER'
 projects = {}
 errors = {}
@@ -17,7 +15,7 @@ def extract_project_numbers_from_excel(excel_file_path):
             cell_value = str(row[0]).strip().upper() if row[0] else ''  
             if cell_value.startswith('K') and len(cell_value) == 8 and cell_value[1:].isdigit():
                 project_numbers.add(cell_value) 
-                print(f"Excel project number extracted: {cell_value}")
+                print(f"Extracted project number: {cell_value} from Excel sheet")
         return project_numbers
     except Exception as e:
         print(f"Error reading from Excel: {e}")
@@ -51,7 +49,7 @@ def find_unmatched_projects(excel_project_numbers):
         print(f"Error finding unmatched projects: {e}")
 
 def main():
-    print("\nParsing all Files in KONTEK's Network...")
+    print("\nParsing all Files in KONTEK's Network...\n")
     excel_file_path = "P:/KONTEK/KONTEK PROJECT JOB NUMBERS.xlsx"
     excel_project_numbers = extract_project_numbers_from_excel(excel_file_path)
     check_project_folder(basepath)
@@ -64,11 +62,7 @@ def main():
 
     print("\nParsing Complete!\n")
     print(f"Logged {len(projects)} projects to projects.json")
-    print(f"Logged {len(errors.get('PROJECTNUMBERSFOLDERNOTFOUND', []))} project numbers from Excel not found in directories to errors.json")
-
-    if PROJECTS_ONLY:
-        print("\nExiting Now...")
-        exit()
+    print(f"Logged {len(errors.get('PROJECTNUMBERSFOLDERNOTFOUND', []))} missing projects to errors.json")
 
 if __name__ == "__main__":
     main()
