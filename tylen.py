@@ -9,7 +9,6 @@ projects = {}
 errors = {}
 
 def extract_project_numbers_from_excel(excel_file_path):
-    """Extract project numbers from the provided Excel file, ensuring they are of the correct format."""
     try:
         wb = openpyxl.load_workbook(excel_file_path, data_only=True) 
         ws = wb.active  
@@ -25,7 +24,6 @@ def extract_project_numbers_from_excel(excel_file_path):
         return set()
 
 def check_project_folder(base_path):
-    """Recursively checks each folder starting from the base path to find valid project folders."""
     try:
         for root, dirs, files in os.walk(base_path, topdown=True):
             for folder in dirs:
@@ -42,7 +40,6 @@ def check_project_folder(base_path):
         print(f"Error checking project folder: {e}")
 
 def find_unmatched_projects(excel_project_numbers):
-    """Identify projects listed in the Excel file but not found in the directory structure."""
     try:
         found_projects = set(projects.keys())
         missing_projects = excel_project_numbers.difference(found_projects)
