@@ -23,7 +23,7 @@ def extract_project_numbers_from_excel(excel_file_path):
         print(f"Error reading from Excel: {e}")
         return set()
     
-# Checking project folders in the base path
+# Checking project folders in the base path 
 
 def check_project_folder(base_path):
     try:
