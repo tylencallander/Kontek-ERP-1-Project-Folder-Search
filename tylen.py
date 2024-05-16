@@ -61,14 +61,14 @@ def main():
     check_project_folder(basepath)
     find_unmatched_projects(excel_project_numbers)
 
-    # JSON file outputs
+# JSON file outputs
 
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4)
     with open("errors.json", "w") as f:
         json.dump(errors, f, indent=4)
 
-    # Print statements so you dont have to count each project and error, but can be omitted
+# Print statements so you dont have to count each project and error, but can be omitted
 
     print("\nParsing Complete!\n")
     print(f"Logged {len(projects)} found projects to projects.json")
