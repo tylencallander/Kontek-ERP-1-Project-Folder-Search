@@ -9,14 +9,16 @@ errors = {}
 # Extracting project numbers from Excel file, starting from the second row and second column
 
 def extract_project_numbers_from_excel(excel_file_path):
+    """Extracts project numbers from Excel, recognizing suffixes properly."""
     try:
-        wb = openpyxl.load_workbook(excel_file_path, data_only=True) 
-        ws = wb.active  
+        wb = openpyxl.load_workbook(excel_file_path, data_only=True)
+        ws = wb.active
         project_numbers = set()
         for row in ws.iter_rows(min_row=2, min_col=2, max_col=2, values_only=True):
-            cell_value = str(row[0]).strip().upper() if row[0] else ''  
-            if cell_value.startswith('K') and len(cell_value) == 8 and cell_value[1:].isdigit():
-                project_numbers.add(cell_value) 
+            cell_value = str(row[0]).strip().upper() if row[0] else ''
+            # Consider both the full and base project numbers for extraction
+            if cell_value.startswith('K') and len(cell_value) >= 8 and cell_value[1:8].isdigit():
+                project_numbers.add(cell_value)
                 print(f"Extracted project number: {cell_value} from Excel sheet")
         return project_numbers
     except Exception as e:
