@@ -6,6 +6,8 @@ basepath = 'P:/KONTEK/CUSTOMER'
 projects = {}
 errors = {}
 
+# Extracts project numbers, including those with suffixes from the Excel file
+
 def extract_project_numbers_from_excel(excel_file_path):
     try:
         wb = openpyxl.load_workbook(excel_file_path, data_only=True)
@@ -21,18 +23,16 @@ def extract_project_numbers_from_excel(excel_file_path):
         print(f"Error reading from Excel: {e}")
         return set()
 
+# Checks through the network folders to find project folders too, and logs them if they match the project numbers found in the Excel file.
     
 def check_project_folder(base_path):
     try:
         for root, dirs, files in os.walk(base_path, topdown=True):
             for folder in dirs:
                 full_path = os.path.join(root, folder)
-                # Split the folder name on spaces to isolate the project number part before any descriptions
                 folder_parts = folder.split()
                 for part in folder_parts:
-                    # Check each part to find one that looks like a project number
                     if part.startswith('K') and len(part) >= 8 and part[1:8].isdigit():
-                        # Now check for a suffix that's strictly letters and up to 3 characters long
                         if '-' in part:
                             project_base, suffix = part.split('-', 1)
                             if suffix.isalpha() and 1 <= len(suffix) <= 3:
@@ -40,9 +40,8 @@ def check_project_folder(base_path):
                             else:
                                 project_number = project_base
                         else:
-                            project_number = part[:8]  # Take only the first 8 characters assuming they're formatted correctly
+                            project_number = part[:8]  
                         
-                        # Log the project if it's correctly formatted
                         if project_number not in projects:
                             projects[project_number] = {
                                 "projectnumber": project_number,
@@ -50,11 +49,11 @@ def check_project_folder(base_path):
                                 "projectpath": full_path.split("\\")
                             }
                             print(f"Found and logged project: {project_number} at {full_path}")
-                            break  # Stop after finding the first valid project number
+                            break  
     except Exception as e:
         print(f"Error checking project folder: {e}")
 
-
+# Finds unmatched projects in both the Excel file and network and prints them out for the user to fix
 
 def find_unmatched_projects(excel_project_numbers):
     try:
@@ -68,6 +67,7 @@ def find_unmatched_projects(excel_project_numbers):
         print(f"Error finding unmatched projects: {e}")
 
 
+# Print comments for clarity, but can be omitted
 
 def main():
     print("\nParsing all Files in KONTEK's Network...\n")
@@ -75,6 +75,8 @@ def main():
     excel_project_numbers = extract_project_numbers_from_excel(excel_file_path)
     check_project_folder(basepath)
     find_unmatched_projects(excel_project_numbers)
+
+# Creatubg "projects.json" and "errors.json" files to store parsed data
 
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4)
