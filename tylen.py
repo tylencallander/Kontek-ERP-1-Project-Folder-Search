@@ -66,7 +66,6 @@ def find_unmatched_projects(excel_project_numbers):
     except Exception as e:
         print(f"Error finding unmatched projects: {e}")
 
-
 # Print comments for clarity, but can be omitted
 
 def main():
