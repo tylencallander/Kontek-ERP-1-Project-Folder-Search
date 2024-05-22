@@ -77,6 +77,7 @@ def main():
 
 # Creatubg "projects.json" and "errors.json" files to store parsed data
 
+
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4)
     with open("errors.json", "w") as f:
