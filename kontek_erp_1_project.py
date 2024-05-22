@@ -23,7 +23,6 @@ def extract_project_numbers_from_excel(excel_file_path):
         print(f"Error reading from Excel: {e}")
         return set()
 
-
 # Checks through the network folders to find project folders too, and logs them if they match the project numbers found in the Excel file.
     
 def check_project_folder(base_path):
