@@ -75,7 +75,7 @@ def main():
     check_project_folder(basepath)
     find_unmatched_projects(excel_project_numbers)
 
-# Creatubg "projects.json" and "errors.json" files to store parsed data
+# Creating projects.json and errors.json files to store parsed data
 
     with open("projects.json", "w") as f:
         json.dump(projects, f, indent=4)
