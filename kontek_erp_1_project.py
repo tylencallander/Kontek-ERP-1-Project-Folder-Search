@@ -2,7 +2,7 @@ import os
 import json
 import openpyxl
 
-# Added
+# Added another key for Project Numbers not found in spreadsheet
 
 basepath = 'P:/KONTEK/CUSTOMER'
 projects = {}
