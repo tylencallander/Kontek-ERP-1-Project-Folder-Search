@@ -60,6 +60,8 @@ def find_unmatched_projects(excel_project_numbers, network_projects):
         for mp in missing_projects:
             print(f"Missing project number: {mp} not found in directories")
 
+# Main function to run the script
+
 def main():
     print("\nParsing all Files in KONTEK's Network...\n")
     excel_file_path = "P:/KONTEK/KONTEK PROJECT JOB NUMBERS.xlsx"
