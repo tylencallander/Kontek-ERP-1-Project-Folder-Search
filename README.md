@@ -1,1 +1,1 @@
-xtracts project numbers from an Excel file, checks for corresponding folders in a network directory, and logs the results, including any unmatched projects, to JSON files for easy tracking and error reporting.
+Extracts project numbers from an Excel file, checks for corresponding folders in a network directory, and logs the results, including any unmatched projects, to JSON files for easy tracking and error reporting.
